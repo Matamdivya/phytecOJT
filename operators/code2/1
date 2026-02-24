@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main ()
+{
+	int a,b,remainder;
+	printf("enter two integers : ");
+	scanf("%d %d",&a,&b);
+	if(b == 0)
+	{
+		printf("division by zero is not possible ");
+	}
+	else
+		{
+			remainder = a-(a/b)*b;
+			printf("remainder=%d",remainder);
+			retrun 0;
+		}
